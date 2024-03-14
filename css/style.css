@@ -1,0 +1,133 @@
+:root {
+  --blue-color: #2196f3;
+  --grey-color: #757575;
+  --black-color: #212121;
+  --white-color: #ffff;
+  --dark-blue-color: #2f303a;
+}
+body {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--black-color);
+}
+.header-item,
+.footer-link {
+  line-height: 31px;
+}
+
+.header-list-link {
+  line-height: 16.41px;
+  color: var(--blue-color);
+}
+.section-button {
+  line-height: 26px;
+}
+
+.photos-title,
+.portfolio-title {
+  line-height: 36px;
+}
+
+.hero-title {
+  line-height: 60px;
+  color: var(--white-color);
+}
+.list-title {
+  line-height: 16.41px;
+}
+.photos-text {
+  line-height: 18px;
+}
+[class*="header-web"] {
+  color: var(--blue-color);
+  line-height: 30.52px;
+}
+.container {
+  width: 1200px;
+  height: 281px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  outline: 1px solid var(--dark-blue-color);
+  background-color: var(--dark-blue-color);
+}
+.hero-button {
+  width: 216px;
+  height: 50px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  outline: 1px solid var(--blue-color);
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 30px;
+}
+#header {
+  width: 1600px;
+  height: 80px;
+  padding-left: 15;
+  padding-right: 15;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  outline: 1px solid var(--white-color);
+  background-color: var(--white-color);
+}
+.advatages-item {
+  color: var(--grey-color);
+  font-weight: 400;
+  line-height: inherit;
+}
+.photos-text-subtext {
+  color: var(--grey-color);
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 400;
+}
+.footer-web {
+  color: var(--blue-color);
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  outline: 1px solid var(--dark-blue-color);
+  background-color: var(--dark-blue-color);
+}
+.footer-text {
+  color: var(--white-color);
+  font-weight: 400;
+  font-family: Raleway;
+  line-height: inherit;
+}
+.footer-link {
+  color: var(--white-color);
+  line-height: 30.52px;
+  font-family: Raleway;
+  font-weight: 700;
+}
+.footer-link-contacts {
+  color: var(--grey-color);
+  line-height: inherit;
+}
+.section-button:first-child {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+.list-link-item:nth-child(2n) {
+  color: var(--blue-color);
+}
+.section-text {
+  color: var(--grey-color);
+  line-height: 30px;
+}
+.section-subtitle {
+  color: inherit;
+  line-height: 36px;
+  font-size: 18px;
+}
